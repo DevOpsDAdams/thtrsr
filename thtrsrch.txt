@@ -1,0 +1,378 @@
+Configuration {
+    kind: "configuration",
+    wordlist: "/usr/share/wordlists/SecLists-2025.3/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-medium.txt",
+    config: "/etc/feroxbuster/ferox-config.toml",
+    proxy: "",
+    replay_proxy: "",
+    server_certs: [],
+    client_cert: "",
+    client_key: "",
+    target_url: "https://thtrsr.ch/",
+    status_codes: [
+        100,
+        101,
+        102,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        226,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        307,
+        308,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        421,
+        422,
+        423,
+        424,
+        426,
+        428,
+        429,
+        431,
+        451,
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        510,
+        511,
+        103,
+        425,
+    ],
+    replay_codes: [
+        100,
+        101,
+        102,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        226,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        307,
+        308,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        421,
+        422,
+        423,
+        424,
+        426,
+        428,
+        429,
+        431,
+        451,
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        510,
+        511,
+        103,
+        425,
+    ],
+    filter_status: [],
+    client: Client {
+        accepts: Accepts,
+        proxies: [
+            Matcher,
+        ],
+        redirect_policy: "Policy(None)",
+        referer: true,
+        default_headers: {
+            "accept": "*/*",
+            "user-agent": "feroxbuster/2.13.1",
+        },
+        reqwest::config::RequestTimeout: 7s,
+    },
+    replay_client: None,
+    threads: 50,
+    timeout: 7,
+    verbosity: 0,
+    silent: false,
+    quiet: false,
+    output_level: Default,
+    auto_bail: false,
+    auto_tune: false,
+    requester_policy: Default,
+    json: false,
+    output: "thtrsrch.txt",
+    debug_log: "",
+    user_agent: "feroxbuster/2.13.1",
+    random_agent: false,
+    redirects: false,
+    insecure: false,
+    extensions: [
+        "php",
+        "js",
+        "txt",
+        "log",
+    ],
+    methods: [
+        "GET",
+    ],
+    data: [],
+    headers: {},
+    queries: [],
+    no_recursion: false,
+    extract_links: true,
+    add_slash: false,
+    stdin: false,
+    cached_stdin: [],
+    depth: 4,
+    scan_limit: 0,
+    parallel: 0,
+    rate_limit: 0,
+    filter_size: [],
+    filter_line_count: [],
+    filter_word_count: [],
+    filter_regex: [],
+    dont_filter: false,
+    resumed: false,
+    resume_from: "",
+    save_state: true,
+    time_limit: "",
+    filter_similar: [],
+    url_denylist: [],
+    regex_denylist: [],
+    scope: [
+        Url {
+            scheme: "https",
+            cannot_be_a_base: false,
+            username: "",
+            password: None,
+            host: Some(
+                Domain(
+                    "thtrsr.ch",
+                ),
+            ),
+            port: None,
+            path: "/",
+            query: None,
+            fragment: None,
+        },
+    ],
+    collect_extensions: false,
+    dont_collect: [
+        "woff2",
+        "woff",
+        "ttf",
+        "otf",
+        "eot",
+        "tif",
+        "tiff",
+        "ico",
+        "cur",
+        "bmp",
+        "webp",
+        "svg",
+        "png",
+        "jpg",
+        "jpeg",
+        "jfif",
+        "gif",
+        "avif",
+        "apng",
+        "pjpeg",
+        "pjp",
+        "mov",
+        "wav",
+        "mpg",
+        "mpeg",
+        "mp3",
+        "mp4",
+        "m4a",
+        "m4p",
+        "m4v",
+        "ogg",
+        "webm",
+        "ogv",
+        "oga",
+        "flac",
+        "aac",
+        "3gp",
+        "css",
+        "zip",
+        "xls",
+        "xml",
+        "gz",
+        "tgz",
+    ],
+    collect_backups: false,
+    backup_extensions: [
+        "~",
+        ".bak",
+        ".bak2",
+        ".old",
+        ".1",
+    ],
+    collect_words: false,
+    force_recursion: false,
+    update_app: false,
+    scan_dir_listings: false,
+    request_file: "",
+    protocol: "https",
+    limit_bars: 0,
+    unique: false,
+    response_size_limit: 4194304,
+}
+301      GET        7l       20w      230c https://thtrsr.ch/img => https://thtrsr.ch/img/
+301      GET        7l       20w      235c https://thtrsr.ch/products => https://thtrsr.ch/products/
+301      GET        7l       20w      232c https://thtrsr.ch/about => https://thtrsr.ch/about/
+200      GET       16l      118w     7229c https://thtrsr.ch/img/errline.png
+200      GET     1030l     2200w    16525c https://thtrsr.ch/vfx.css
+200      GET     1462l     9212w   750089c https://thtrsr.ch/img/TRI-logo-bkgnd.png
+200      GET       16l      140w     8670c https://thtrsr.ch/img/tri-bug_white.png
+200      GET        6l       70w     5408c https://thtrsr.ch/img/tri-bug_color.png
+200      GET      272l     1237w    81778c https://thtrsr.ch/img/trispin_60.gif
+200      GET       68l      351w    33419c https://thtrsr.ch/img/tri_logo_wordmark_color.png
+200      GET      105l      553w     6364c https://thtrsr.ch/
+301      GET        7l       20w      235c https://thtrsr.ch/research => https://thtrsr.ch/research/
+301      GET        7l       20w      233c https://thtrsr.ch/safety => https://thtrsr.ch/safety/
+301      GET        7l       20w      232c https://thtrsr.ch/stats => https://thtrsr.ch/stats/
+418      GET       14l       69w      532c https://thtrsr.ch/config.php
+404      GET        8l       30w      374c https://thtrsr.ch/img/Q.txt
+404      GET        0l        0w      315c https://thtrsr.ch/research/253.php
+404      GET        0l        0w      315c https://thtrsr.ch/products/navbar.txt
+404      GET        0l        0w      315c https://thtrsr.ch/malware.log
+418      GET       14l       69w      532c https://thtrsr.ch/configuration.php
+404      GET        0l        0w      315c https://thtrsr.ch/safety/crackdown.log
+404      GET        7l       33w      387c https://thtrsr.ch/img/crackdown.log
+404      GET        0l        0w      315c https://thtrsr.ch/safety/ashampoo.log
+404      GET        0l        0w      315c https://thtrsr.ch/zh-tw.log
+404      GET        0l        0w      315c https://thtrsr.ch/stats/fds.log
+200      GET       34l      148w     1443c https://thtrsr.ch/xba.php
+404      GET        5l       16w      453c https://thtrsr.ch/img/Simon.log
+404      GET        0l        0w      315c https://thtrsr.ch/img/eservice.txt
+404      GET        0l        0w      315c https://thtrsr.ch/img/zec.js
+404      GET        0l        0w      315c https://thtrsr.ch/research/9515.php
+404      GET        0l        0w      315c https://thtrsr.ch/research/for_organisations
+404      GET        0l        0w      315c https://thtrsr.ch/safety/002240
+404      GET        0l        0w      315c https://thtrsr.ch/stats/DVD-Rebuilder.php
+404      GET        0l        0w      315c https://thtrsr.ch/safety/6261.php
+404      GET        0l        0w      315c https://thtrsr.ch/research/free-download
+404      GET        0l        0w      315c https://thtrsr.ch/stats/srk
+404      GET        7l       25w      409c https://thtrsr.ch/safety/security_appliances.php
+404      GET        8l       33w      369c https://thtrsr.ch/research/_37085.php
+404      GET        0l        0w      315c https://thtrsr.ch/030905.js
+404      GET        0l        0w      315c https://thtrsr.ch/research/market_access.js
+404      GET        0l        0w      315c https://thtrsr.ch/law_off.txt
+404      GET        0l        0w      315c https://thtrsr.ch/about/CII.txt
+404      GET        0l        0w      315c https://thtrsr.ch/img/_37082.php
+404      GET        0l        0w      315c https://thtrsr.ch/img/vwapj.txt
+404      GET        0l        0w      315c https://thtrsr.ch/products/_37086.txt
+404      GET        0l        0w      315c https://thtrsr.ch/031005.js
+404      GET        0l        0w      315c https://thtrsr.ch/about/syncbackse.txt
+404      GET        0l        0w      315c https://thtrsr.ch/member1.log
+404      GET        0l        0w      315c https://thtrsr.ch/products/playdoh.log
+404      GET        0l        0w      315c https://thtrsr.ch/about/SearchBox.js
+404      GET        0l        0w      315c https://thtrsr.ch/powertrips.js
+404      GET        0l        0w      315c https://thtrsr.ch/stats/shadowman.js
+404      GET        0l        0w      315c https://thtrsr.ch/82477.js
+404      GET        0l        0w      315c https://thtrsr.ch/stats/felietony.js
+404      GET        0l        0w      315c https://thtrsr.ch/img/title01.js
+404      GET        0l        0w      315c https://thtrsr.ch/stats/fr_r4j.log
+404      GET        0l        0w      315c https://thtrsr.ch/safety/159997.php
+404      GET        0l        0w      315c https://thtrsr.ch/products/PlanRUB6
+404      GET        0l        0w      315c https://thtrsr.ch/research/16084.log
+404      GET        0l        0w      315c https://thtrsr.ch/148790.log
+404      GET        0l        0w      315c https://thtrsr.ch/img/btnbar-1x1.js
+404      GET        0l        0w      315c https://thtrsr.ch/img/126307487.txt
+404      GET        0l        0w      315c https://thtrsr.ch/img/159579.txt
+404      GET        7l       26w      388c https://thtrsr.ch/safety/682269989.js
+404      GET        0l        0w      315c https://thtrsr.ch/img/btnbar-1x2.js
+404      GET        0l        0w      315c https://thtrsr.ch/research/173657.txt
+404      GET        0l        0w      315c https://thtrsr.ch/research/145494
+404      GET        0l        0w      315c https://thtrsr.ch/safety/ATB.txt
+404      GET        0l        0w      315c https://thtrsr.ch/img/ataris.js
+404      GET        0l        0w      315c https://thtrsr.ch/about/imap4_server.log
+404      GET        0l        0w      315c https://thtrsr.ch/safety/31711
+404      GET        0l        0w      315c https://thtrsr.ch/img/obsd-fw.txt
+404      GET        0l        0w      315c https://thtrsr.ch/img/antispam_exchange.js
+404      GET        8l       17w      459c https://thtrsr.ch/research/87828.log
+404      GET        0l        0w      315c https://thtrsr.ch/about/88388.log
+404      GET        0l        0w      315c https://thtrsr.ch/stats/99CC00
+404      GET        0l        0w      315c https://thtrsr.ch/stats/b_line.js
+404      GET        0l        0w      315c https://thtrsr.ch/products/431500.log
+404      GET        0l        0w      315c https://thtrsr.ch/img/87828.js
+404      GET        0l        0w      315c https://thtrsr.ch/tryindesign_win
+404      GET        0l        0w      315c https://thtrsr.ch/about/456958
+404      GET        0l        0w      315c https://thtrsr.ch/img/SplinterCell
+404      GET        0l        0w      315c https://thtrsr.ch/research/88209.txt
+404      GET        0l        0w      315c https://thtrsr.ch/about/88209.log
+404      GET        0l        0w      315c https://thtrsr.ch/products/prenumerera.log
+404      GET        0l        0w      315c https://thtrsr.ch/img/88209
+404      GET        0l        0w      315c https://thtrsr.ch/safety/120781.log
+404      GET        0l        0w      315c https://thtrsr.ch/stats/b_privacy.js
+404      GET        0l        0w      315c https://thtrsr.ch/stats/main_topic
+404      GET        0l        0w      315c https://thtrsr.ch/about/351600.txt
+404      GET        0l        0w      315c https://thtrsr.ch/safety/pfeil_rot
+404      GET        0l        0w      315c https://thtrsr.ch/about/special-days.txt
+404      GET        0l        0w      315c https://thtrsr.ch/img/15215.php
+404      GET        0l        0w      315c https://thtrsr.ch/img/mover.js
+404      GET        0l        0w      315c https://thtrsr.ch/stats/network_research.txt

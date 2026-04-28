@@ -1,0 +1,100 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+	
+<title>About // Thought Research Initiative</title>
+			<link href="/lookback.css" rel="stylesheet" type="text/css">
+			<link href="/redesign.css" rel="stylesheet" type="text/css">
+			<link href="/vfx.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.typekit.net/dhz4dvc.css">
+
+<style type="text/css"> 
+	
+	.gradientc { background-image: linear-gradient(
+                 300deg,
+                 hsl(1deg 90% 5%) 0%,
+                 hsl(6deg 10% 6%) 35%,
+		         hsl(6deg 10% 6%) 55%,
+                 hsl(6deg 0% 0%) 100%);
+		background-attachment: fixed;
+	}
+	
+	.tri-bgnd { 
+		background-image:url("../img/TRI-logo-bkgnd.png");
+		background-size:60%;
+		background-repeat: no-repeat;
+		background-position: -40px -100px;
+		
+		min-height:110vh;
+		background-attachment: fixed;
+	}
+		
+	
+	a:link, a:visited { text-decoration: none; color:orange;}
+
+	.paratext { font-family: 'helvetica neue', helvetica, sans-serif; 
+	font-weight: 300; letter-spacing:0.058em; line-height:1.8em;
+	
+	}
+	
+	.err {
+    display: inline-block;
+    position:relative;
+    background: url('../img/errline.png') bottom repeat-x;
+    background-size:6px;
+	}
+		
+	.kallisto {font-weight: 400; letter-spacing: 0.04em; font-family: 'kallisto', Helvetica, 'sans-serif';}
+	
+</style>	
+	
+</head>
+
+<body style="background-color:black; margin:0px; padding:0px;">
+<div class="gradientc" >
+<div class="tri-bgnd" style="margin:0px; padding:0; width:100%; font-weight: 400; letter-spacing: 0.04em; font-family: 'kallisto', Helvetica, 'sans-serif';">
+	<div class="triheader" style="border-bottom: 5px solid black; position:fixed; top:0px; width:100vw; padding:30px 40px 15px 40px; z-index: 255; font-size: 0.9em; color: black; background-color: whitesmoke;">
+		<div style="float:left; display:inline-block; position:relative;"><a href="https://thtrsr.ch/"><img src="../img/tri_logo_wordmark_color.png" height="53"/></a></div>
+		<div style="float:right; display:block;  position: relative; top: 36px; font-weight: 400; letter-spacing: 0.07em; padding-bottom:53px; padding-right:80px;">
+			<a href="/products"><div class="" style="display:inline-flex; margin-right:30px; color:#C30000;">Products</div></a>
+			<a href="/research"><div class="" style="display:inline-flex;  margin-right:30px; color:#C30000;">Research</div></a>
+			<a href="/safety"><div class="" style="display:inline-flex; margin-right:30px; color:#C30000;">Ethics &amp; Safety</div></a>
+			<a href="/about"><div class="" style="display:inline-flex; color:#C30000;">About TRI</div></a>
+		</div>
+	</div>
+	<!-- content -->
+<div style="width:100%; position: relative; margin:50px 0px;"><div style="margin:0px auto; color:#ffffff; font-size:1.2em; width:60%; line-height: 1.5; ">
+	<div style="height:80px;"></div>
+		<p style="font-size:2.6em; line-height:1em; font-weight: 100; letter-spacing:0.2rem; text-align:left;"><span>About TRI</span></p>
+
+	</div>
+		<img style="width:100vw; align-self: center; overflow: hidden; border-bottom: 2px solid #C30000;" src="104450030.jpg"/>
+<div style="width:100%; position: relative; margin:50px 0px;"><div style="margin:0px auto; color:#ffffff; font-size:1.2em; width:60%; line-height: 1.5; ">
+
+	<p class="paratext"> In 1954, while the world of computing turned to binary logic and the predictability of silicon, Thought Research Initiative took a different path.<br>
+	  <br>
+	  Our founders believed functional intelligence wasn't a matter of <em>calculation</em>, but of <em>perception</em>. Operating as a private think tank for over seventy years, TRI has dedicated its efforts to unraveling the Hard Problem of Consciousness, studying the nuances of human sapience and the fuzzy logic that allows our species to make brilliant leaps of intuition. The digital revolution optimized storing data. TRI is perfecting the way we understand it.</p>
+<br>
+<p class=" paratext"><span class="kallisto" style="font-size:1.3em;">Qualiaformatics: A New Way Forward&nbsp;&nbsp;</span><br>
+TRI's breakthrough didn't arrive via faster digital processing. We stayed in the analog world. Through what we call <em>qualiaformatics</em>, we discovered that metastable properties of tried-and-true electromagnetic storage could deliver human-like cognitive leaps. Utilizing high-density magnetic tape as a medium, we’ve moved beyond the rote, probabilistic "latent space" of traditional AI.<br><br> Unlike the large language models which dominate the AI space, guessing the next word based on probability, TRI's Qualiaform Intuition&trade; (QI<img style="position:relative; vertical-align: text-top; top:0.12em;" src="/img/tri-bug_white.png" width="8"/>) architecture allows for <em>genuine metacognitive comprehension</em>. It is a system freed from the biases (and dubious legality) of broad datasets, instead functioning instead through fluid waveforms mapped 1:1 to sapient thought patterns.<br><br></p>
+	
+		</div>
+		<img style="width:100vw; align-self: center; overflow: hidden; border-bottom: 2px solid #C30000;" src="296306617.jpg"/>
+<div style="width:100%; position: relative; margin:50px 0px;"><div style="margin:0px auto; color:#ffffff; font-size:1.2em; width:60%; line-height: 1.5; ">
+
+
+<p class=" paratext"><span class="kallisto" style="font-size:1.3em;">The Cadence of Cognition</span><br>
+Now, TRI is bringing this seventy-year legacy out of the laboratory and into your hands. <br><br>QI<img style="position:relative; vertical-align: text-top; top:0.12em;" src="/img/tri-bug_white.png" width="8"/> is more than a tool. It is a peer designed to function with the ease of a capable new hire. Because our technology is rooted in the physical reality of recursive hysteretic states, every QI<img style="position:relative; vertical-align: text-top; top:0.12em;" src="/img/tri-bug_white.png" width="8"/> possesses a unique "cognitive cadence" that evolves alongside you and your users. It doesn't require complex prompts or weighted arguments&mdash;it listens, learns from experience, and offers an intuitive partnership once thought to be a exclusively human.<br><br>Welcome to the new era of machine cognition. Welcome to TRI.</p>
+	
+  </div>
+	</div>
+	</div>
+		<div class="trifooter kallisto" style="padding:30px 50px 50px 50px; color:#666666; background-color:whitesmoke; font-weight: 400;">
+			<div style="display: inline-block; float:left;"><img src="../img/tri-bug_color.png" height="30" alt="TRI bug"/></div><div style="display: inline-block; float:right;">&copy; 2026 thought research initiative</div>
+	</div>
+	</div>
+</body>
+</html>
+

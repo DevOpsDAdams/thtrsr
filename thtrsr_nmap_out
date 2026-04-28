@@ -1,0 +1,147 @@
+# Nmap 7.98 scan initiated Tue Apr 28 00:11:40 2026 as: /usr/lib/nmap/nmap -sC -sV -O -p- -o thtrsr_nmap_out thtrsr.ch
+Nmap scan report for thtrsr.ch (75.119.207.35)
+Host is up (0.10s latency).
+rDNS record for 75.119.207.35: apache2-zoo.pdx1-shared-a1-09.dreamhost.com
+Not shown: 65527 filtered tcp ports (no-response)
+PORT      STATE SERVICE     VERSION
+21/tcp    open  ftp         ProFTPD
+22/tcp    open  ssh         OpenSSH 8.9p1 Ubuntu 3ubuntu0.14 (Ubuntu Linux; protocol 2.0)
+80/tcp    open  http        Apache httpd
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to https://thtrsr.ch/
+443/tcp   open  ssl/http    Apache httpd
+|_http-server-header: Apache
+|_ssl-date: TLS randomness does not represent time
+|_http-title: Thought Research Initiative
+| ssl-cert: Subject: commonName=www.thtrsr.ch
+| Subject Alternative Name: DNS:thtrsr.ch, DNS:www.thtrsr.ch
+| Not valid before: 2026-04-09T21:45:52
+|_Not valid after:  2026-07-08T21:45:51
+587/tcp   open  smtp?
+|_smtp-commands: pdx1-shared-a1-09.dreamhost.com, PIPELINING, SIZE 40960000, ETRN, ENHANCEDSTATUSCODES, 8BITMIME, CHUNKING
+| fingerprint-strings: 
+|   GenericLines: 
+|     220 pdx1-shared-a1-09.dreamhost.com ESMTP
+|     5.5.2 Error: bad syntax
+|     5.5.2 Error: bad syntax
+|   Hello: 
+|     220 pdx1-shared-a1-09.dreamhost.com ESMTP
+|     Syntax: EHLO hostname
+|   NULL: 
+|_    220 pdx1-shared-a1-09.dreamhost.com ESMTP
+9090/tcp  open  zeus-admin?
+| fingerprint-strings: 
+|   FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, Help, LPDString, RTSPRequest, SIPOptions, SqueezeCenter_CLI: 
+|     HTTP/1.1 404 Not Found
+|     Content-Length: 0
+|_    Connection: close
+9469/tcp  open  http        Golang net/http server
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  Server returned status 401 but no WWW-Authenticate header.
+|_http-title: Site doesn't have a title (text/plain; charset=utf-8).
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 401 Unauthorized
+|     Content-Type: text/plain; charset=utf-8
+|     X-Content-Type-Options: nosniff
+|     Date: Tue, 28 Apr 2026 04:14:11 GMT
+|     Content-Length: 15
+|     authorized
+|   GenericLines, Help, LPDString, RTSPRequest, SIPOptions, SSLSessionReq, Socks5: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/plain; charset=utf-8
+|     Connection: close
+|     Request
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.0 401 Unauthorized
+|     Content-Type: text/plain; charset=utf-8
+|     X-Content-Type-Options: nosniff
+|     Date: Tue, 28 Apr 2026 04:13:55 GMT
+|     Content-Length: 15
+|     authorized
+|   OfficeScan: 
+|     HTTP/1.1 400 Bad Request: missing required Host header
+|     Content-Type: text/plain; charset=utf-8
+|     Connection: close
+|_    Request: missing required Host header
+44395/tcp open  ssl/unknown
+| ssl-cert: Subject: commonName=rps.atcom.cn/organizationName=tt/stateOrProvinceName=Some-State/countryName=CN
+| Not valid before: 2024-01-31T08:08:28
+|_Not valid after:  2025-01-30T08:08:28
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, Kerberos, NotesRPC, SMBProgNeg, afp, oracle-tns: 
+|_    https://provision.helixtelecom.com/a10w/
+|_ssl-date: TLS randomness does not represent time
+4 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port587-TCP:V=7.98%I=7%D=4/28%Time=69F03403%P=x86_64-pc-linux-gnu%r(NUL
+SF:L,2B,"220\x20pdx1-shared-a1-09\.dreamhost\.com\x20ESMTP\r\n")%r(Generic
+SF:Lines,65,"220\x20pdx1-shared-a1-09\.dreamhost\.com\x20ESMTP\r\n500\x205
+SF:\.5\.2\x20Error:\x20bad\x20syntax\r\n500\x205\.5\.2\x20Error:\x20bad\x2
+SF:0syntax\r\n")%r(Hello,46,"220\x20pdx1-shared-a1-09\.dreamhost\.com\x20E
+SF:SMTP\r\n501\x20Syntax:\x20EHLO\x20hostname\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port9090-TCP:V=7.98%I=7%D=4/28%Time=69F03403%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,40,"HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x200\r
+SF:\nConnection:\x20close\r\n\r\n")%r(SqueezeCenter_CLI,40,"HTTP/1\.1\x204
+SF:04\x20Not\x20Found\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\
+SF:r\n")%r(GenericLines,40,"HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Le
+SF:ngth:\x200\r\nConnection:\x20close\r\n\r\n")%r(HTTPOptions,40,"HTTP/1\.
+SF:1\x20404\x20Not\x20Found\r\nContent-Length:\x200\r\nConnection:\x20clos
+SF:e\r\n\r\n")%r(RTSPRequest,40,"HTTP/1\.1\x20404\x20Not\x20Found\r\nConte
+SF:nt-Length:\x200\r\nConnection:\x20close\r\n\r\n")%r(Help,40,"HTTP/1\.1\
+SF:x20404\x20Not\x20Found\r\nContent-Length:\x200\r\nConnection:\x20close\
+SF:r\n\r\n")%r(FourOhFourRequest,40,"HTTP/1\.1\x20404\x20Not\x20Found\r\nC
+SF:ontent-Length:\x200\r\nConnection:\x20close\r\n\r\n")%r(LPDString,40,"H
+SF:TTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x200\r\nConnection:\
+SF:x20close\r\n\r\n")%r(SIPOptions,40,"HTTP/1\.1\x20404\x20Not\x20Found\r\
+SF:nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port9469-TCP:V=7.98%I=7%D=4/28%Time=69F03403%P=x86_64-pc-linux-gnu%r(Ge
+SF:nericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20t
+SF:ext/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x
+SF:20Request")%r(GetRequest,AF,"HTTP/1\.0\x20401\x20Unauthorized\r\nConten
+SF:t-Type:\x20text/plain;\x20charset=utf-8\r\nX-Content-Type-Options:\x20n
+SF:osniff\r\nDate:\x20Tue,\x2028\x20Apr\x202026\x2004:13:55\x20GMT\r\nCont
+SF:ent-Length:\x2015\r\n\r\nNot\x20authorized\n")%r(HTTPOptions,AF,"HTTP/1
+SF:\.0\x20401\x20Unauthorized\r\nContent-Type:\x20text/plain;\x20charset=u
+SF:tf-8\r\nX-Content-Type-Options:\x20nosniff\r\nDate:\x20Tue,\x2028\x20Ap
+SF:r\x202026\x2004:13:55\x20GMT\r\nContent-Length:\x2015\r\n\r\nNot\x20aut
+SF:horized\n")%r(RTSPRequest,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCon
+SF:tent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\
+SF:r\n400\x20Bad\x20Request")%r(Help,67,"HTTP/1\.1\x20400\x20Bad\x20Reques
+SF:t\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20cl
+SF:ose\r\n\r\n400\x20Bad\x20Request")%r(SSLSessionReq,67,"HTTP/1\.1\x20400
+SF:\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\n
+SF:Connection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(FourOhFourRequest
+SF:,AF,"HTTP/1\.0\x20401\x20Unauthorized\r\nContent-Type:\x20text/plain;\x
+SF:20charset=utf-8\r\nX-Content-Type-Options:\x20nosniff\r\nDate:\x20Tue,\
+SF:x2028\x20Apr\x202026\x2004:14:11\x20GMT\r\nContent-Length:\x2015\r\n\r\
+SF:nNot\x20authorized\n")%r(LPDString,67,"HTTP/1\.1\x20400\x20Bad\x20Reque
+SF:st\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20c
+SF:lose\r\n\r\n400\x20Bad\x20Request")%r(SIPOptions,67,"HTTP/1\.1\x20400\x
+SF:20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nCo
+SF:nnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(Socks5,67,"HTTP/1\.
+SF:1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=u
+SF:tf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(OfficeSca
+SF:n,A3,"HTTP/1\.1\x20400\x20Bad\x20Request:\x20missing\x20required\x20Hos
+SF:t\x20header\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnect
+SF:ion:\x20close\r\n\r\n400\x20Bad\x20Request:\x20missing\x20required\x20H
+SF:ost\x20header");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port44395-TCP:V=7.98%T=SSL%I=7%D=4/28%Time=69F03412%P=x86_64-pc-linux-g
+SF:nu%r(DNSVersionBindReqTCP,28,"https://provision\.helixtelecom\.com/a10w
+SF:/")%r(DNSStatusRequestTCP,28,"https://provision\.helixtelecom\.com/a10w
+SF:/")%r(Kerberos,28,"https://provision\.helixtelecom\.com/a10w/")%r(SMBPr
+SF:ogNeg,28,"https://provision\.helixtelecom\.com/a10w/")%r(NotesRPC,28,"h
+SF:ttps://provision\.helixtelecom\.com/a10w/")%r(oracle-tns,28,"https://pr
+SF:ovision\.helixtelecom\.com/a10w/")%r(afp,28,"https://provision\.helixte
+SF:lecom\.com/a10w/");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: IPCop 2.0 (Linux 2.6.32) (94%), Linux 2.6.32 (94%), Synology DiskStation Manager 7.1 (94%), Tiandy NVR (94%), Linux 3.2 (92%), Linux 4.18 (92%), Linux 4.9 (92%), Linux 5.4 (92%), Linux 3.18 (92%), D-Link DSL-2890AL ADSL router (91%)
+No exact OS matches for host (test conditions non-ideal).
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Apr 28 00:16:53 2026 -- 1 IP address (1 host up) scanned in 313.40 seconds

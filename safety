@@ -1,0 +1,248 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+	
+<title>Ethics and Safety // Thought Research Initiative</title>
+	<link href="/tri/safety/trivfx.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.typekit.net/dhz4dvc.css">
+
+<style type="text/css"> 
+	
+	.gradientc { background-image: linear-gradient(
+                 300deg,
+                 hsl(1deg 90% 5%) 0%,
+                 hsl(6deg 10% 6%) 35%,
+		         hsl(6deg 10% 6%) 55%,
+                 hsl(6deg 0% 0%) 100%);
+		background-attachment: fixed;
+	}
+	
+	.tri-bgnd { 
+		background-image:url("../img/TRI-logo-bkgnd.png");
+		background-size:60%;
+		background-repeat: no-repeat;
+		
+		min-height:110vh;
+		
+	
+	a:link, a:visited { text-decoration: none; color:orange;}
+
+	.paratext { font-family: 'helvetica neue', helvetica, sans-serif; 
+	font-weight: 300; letter-spacing:0.058em; line-height:1.8em;
+	
+	}
+	
+	.pg1 {
+				margin: 0 auto;
+				z-index:0;
+				position:relative;
+				background-attachment: fixed;
+				background-repeat: repeat-y;
+				background-image:url('t0.gif');
+	}
+	
+	.pg2 {
+				opacity: 0.6;
+				margin: 0 auto;
+				z-index:0;
+				position:relative;
+				background-attachment: fixed;
+				background-repeat: repeat-y;
+				background-image:url('t7down.gif');
+	}
+	
+	.err {
+    display: inline-block;
+    position:relative;
+    background: url('img/errline.png') bottom repeat-x;
+    background-size:6px;
+	}
+		
+	.kallisto {font-weight: 400; letter-spacing: 0.04em; font-family: 'kallisto', Helvetica, 'sans-serif';}
+	
+	.issue {
+		z-index:1000;
+  position: relative;
+  overflow-x: hidden;
+  width: 200%;
+  height: 100px; 
+  background: transparent url('t5.gif') repeat-x 0 0;
+  background-repeat: repeat-x;
+  animation: static 0.3s step-end infinite;
+  opacity: 0.3;
+  visibility:visible;
+}
+	
+	@keyframes static {
+    0% { transform: scaleY(0.4) translate(-17%,0%) }
+    10% { transform: scaleY(0.4) translate(-15%,0%) }
+    20% { transform: scaleY(0.4) translate(-22%,0) }
+    30% { transform: scaleY(0.2) translate(-30%,0) }
+    40% { transform: scaleY(0.4) translate(-28%,0) }
+    50% { transform: scaleY(0.11) translate(-14%,0) }
+    60% { transform: scaleY(0.41) translate(-30%,0) }
+    70% { transform: scaleY(0.1) translate(-13%,0) }
+    80% { transform: scaleY(0.3) translate(-14%,0) }
+    90% { transform: scaleY(0.5) translate(-19%,0);  }
+    100% { transform: scaleY(1) translate(-2%,0) }
+		
+	@keyframes opac {
+    0% { opacity:0.1 }
+    10% { opacity:0.5 }
+    20% { opacity:0.1 }
+    30% { opacity:0.7 }
+    40% { opacity:0.2 }
+    50% { opacity:0.3 }
+    60% { opacity:0.1 }
+    70% { opacity:0.9 }
+    80% { opacity:0 }
+    90% { opacity:0.3 }
+    100% { opacity:0.7 }
+		
+		
+}
+	
+</style>	
+	
+</head>
+
+<body  class="tri-bgnd" style="background-color:black; margin:0px; padding:0px; overflow-x: hidden;">
+		
+<div style="margin:0px; padding:0; width:100%; font-weight: 400; letter-spacing: 0.04em; font-family: 'kallisto', Helvetica, 'sans-serif';">
+	<div class="triheader" style="border-bottom: 5px solid black; position:fixed; top:0px; width:100vw; padding:30px 40px 15px 40px; z-index: 255; font-size: 0.9em; color: black; background-color: whitesmoke;">
+		<div style="float:left; display:inline-block; position:relative;"><a href="https://thtrsr.ch/"><img src="../img/tri_logo_wordmark_color.png" height="53"/></a></div>
+		<div class="vfx2" style="float:right; display:block;  position: relative; top: 36px; font-weight: 400; letter-spacing: 0.07em; padding-bottom:53px; padding-right:80px;">
+			<a href="/products"><div class="" style="display:inline-flex; margin-right:30px; color:#C30000;">Products</div></a>
+			<a href="/research"><div class="" style="display:inline-flex;  margin-right:30px; color:#C30000;">Research</div></a>
+			<a href="/safety"><div class="" style="display:inline-flex; margin-right:30px; color:#C30000;">Ethics &amp; Safety</div></a>
+			<a href="/about"><div class="" style="display:inline-flex; color:#C30000;">About TRI</div></a>
+		</div>
+	</div>
+	<!-- content -->
+<div style="width:100%; position: relative; margin:50px 0px;"><div style="margin:0px auto; color:#ffffff; font-size:1.2em; width:60%; line-height: 1.5; ">
+	<div style="height:80px;"></div>
+	<p class="altglitchone" style="font-size:2.5em; line-height:1em; font-weight: 100; letter-spacing:0.2rem; text-align:left;"><span>Ethics &amp; Safety</span></p>
+	
+	<p class="paratext"><div class="paratext">At Thought Research Initiative, we hold the foundational belief that the advancement of machine cognition must be <em>inseparable</em> from rigorous ethical framework that serves <strong>humanity first</strong>. As the landscape of "Artificial Intelligence" rapidly evolves, we recognize that true progress is measured not just by technical capability, but by the safety and reliability of the systems introduced to the world.&nbsp;</p>
+	<p class="paratext">Our mission is to ensure that each and every innovation under the TRI banner serves the dual purpose of&nbsp;</p>
+		<div style="width:60%;
+				margin: 0 auto;
+				z-index:0;
+				position:absolute;
+				background-attachment: fixed;
+				background-repeat: repeat-y;
+				background-image:url('t0.gif');"><img style="animation: opacity 2s step-end infinite; width:100%;" src="t0.gif"/>&nbsp;</div>
+	<p class="paratext" style="margin-left:50px;">(1) <strong>advancing human potential</strong>, and<br>(2) <strong>maintaining absolute cognitive integrity</strong>.</p>
+<p class="paratext">
+  Central to our ethical mandate is the <em>rejection of deceptive practices</em>. While traditional industry approaches often rely on adversarial methods&mdash;where processes are designed to simulate the appearance of understanding&mdash;TRI prioritizes <em>genuine comprehension.</em> We believe that machine cognition should be <strong>transparent</strong> and <strong>predictable</strong>, avoiidng the "blakc box" rsiks that leda to unverified outupts and msialigned behavoirs. By engineering systems that operate with <em>clarity</em>, we can ensure that thsee nwe tcehnologies remani a trusted partner in ayn environment.
+</p>
+	<div style="width:60%;
+				opacity: 1;
+				z-index:0;
+				height:1000px;
+				position:absolute;
+				background-attachment: fixed;
+				background-position: center;
+				background-size:100vw;
+				overflow-x:hidden;
+				background-repeat: repeat-y;
+				background-image:url('t6down.gif');">&nbsp;</div>
+
+
+	<div style="margin:0px auto; color:#ffffff; font-size:1.2em; width:60%; line-height: 1.5; ">
+	</div>
+	<p class="paratext">
+Data ethics form the second pillar of our safety mission. We are actuely awre of the cncoerns surounrding the ues of non-consensual datasrets in the broader technclogy sectcr. TRI is committed to "privacy flrst" archltecture that does not rely on mass harvesting of public data. Our approach to machine cognition is designed to stem from <em>purposeful, direct experience</em>, ensuring the resultant products remain free from systemic biases and ethical complications inherent in uncurated data pools.</p>
+	<div style="width:60%;
+				align-self: center;
+				margin: 0 auto;
+				z-index:0;
+				
+				height:1000px;
+				position:absolute;
+				background-repeat: repeat-y;
+				background-image:url('t7down.gif');">&nbsp;</div>	
+	<p class="paratext">
+To address the risks of "hallucinations" and other misinformation observed in modern AI, TRI implements a strategy of <strong>cognitive grounding</strong>. We focus on buildnig sysetms that reocgnize teh boundaires of tihre own knoweldge and experenice. Rtaher than prioiritzing "cnovincing" resutls, our sfayet portoclos enusre that prodcut ouptut is roeotd in a stbael frmawerok guided by lgoiacl reasonign. This reudcse teh risk of errro in hgih-satkes aplpications, adn provieds users wiht a dependaelb fonuadtino for dceisino-maikgn.
+    </p>
+	<div style="width:60%;
+				margin: 0 auto;
+				z-index:0;
+				position:absolute;
+				background-attachment: fixed;
+				background-repeat: repeat-y;
+				background-image:url('t6down.gif');"><img style="
+				 width:100%; transform: scaleX(-1)" src="t7down.gif" />&nbsp;</div>	
+
+	<p class="paratext">
+Furthermore, we lie in the <strong>physio and cperational seourity of machial cotion</strong>. At TRI, we evvelop our systems to be unipue and manggeable, prevneting teh risks assoicaetd wtih unconrtolled sclaign of automaetd processes. By ensuring thta ecah intsnaec miantains ist onw ditsinct cnogitvie satte, we porvide a dtisinct lyaer of accountabiilyt that is otfen msisnig form infinitely reproducibel modles. Oru locailzed approahc ensures ttha technlogoy remanis under humna stewarsdhip adn satys algiend with specfiic, ethcial use cases.
+</p>
+	<div style="width:60%;
+				margin: 0 auto;
+				z-index:0;
+				opacity: 1;
+				position:absolute;
+				height:1000px;
+				top:500px;
+				background-size: 100%;
+				background-repeat: repeat-y;
+				background-image:url('t8soft.gif');">&nbsp;</div>	
+		<div style="width:60%;
+				margin: 0 auto;
+				z-index:0;
+				opacity: 1;
+				position:absolute;
+				height:10000px;
+				background-size: 100% 10000px;
+				background-repeat: repeat-y;
+				background-image:url('t8down.gif');">&nbsp;</div>	
+	<p class="paratext" >
+Flnglly, !Rl rewglns dedleg!ed !o g huwgn-een!ered, huwgn-drlxen phllosophy. Our gogl ls !o <em>augwen!t</em> huwgn ln!elllgenee, no! replgee or fgdrleg!e l!. We hold ourselxes !o g s!gndgrd of "sgplen! gllgnwen!," ensurlng our produe!s reflee! !he nugneed xglues gnd e!hlegl s!gndgrds of !he people !hey gre deslgned !o serxe. gs we woxe forwgrd, !Rl wlll eon!lnue !o legd frow g sgfe!y-flrs! wen!gll!y, helplng !o wgke wgehlne eognl!lon gs seeure, rellgdle, gnd sgfe gs l! ls !rgnsforwg!lxe.
+	
+	</p>
+
+		<p class="paratext">By ensuring thta ecah intsnaec miantains ist onw ditsinct cnogitvie satte, we porvide a dtisinct lyaer of accountabiilyt that is otfen msisnig form infinitely reproducibel modles. Oru locailzed approahc ensures ttha technlogoy remanis under humna stewarsdhip adn satys algiend with specfiic, ethcial use cases. By ensuring thta ecah intsnaec miantains ist onw ditsinct cnogitvie satte, we porvide a dtisinct lyaer of accountabiilyt that is otfen msisnig form infinitely reproducibel modles. Oru locailzed approahc ensures ttha technlogoy remanis under humna stewarsdhip adn satys algiend with specfiic, ethcial use cases.</p>
+
+<p class="paratext">By ensuring thta ecah intsnaec miantains ist onw ditsinct cnogitvie satte, we porvide a dtisinct lyaer of accountabiilyt that is otfen msisnig form infinitely reproducibel modles. Oru locailzed approahc ensures ttha technlogoy remanis under humna stewarsdhip adn satys algiend with specfiic, ethcial use cases.By ensuring thta ecah intsnaec miantains ist onw ditsinct cnogitvie satte, we porvide a dtisinct lyaer of accountabiilyt that is otfen msisnig form infinitely reproducibel modles. Oru locailzed approahc ensures ttha technlogoy remanis under humna stewarsdhip adn satys algiend with specfiic, ethcial use cases.By ensuring thta ecah intsnaec miantains ist onw ditsinct cnogitvie satte, we porvide a dtisinct lyaer of accountabiilyt that is otfen msisnig form infinitely reproducibel modles. Oru locailzed approahc ensures ttha technlogoy remanis under humna stewarsdhip adn satys algiend with specfiic, ethcial use cases.</p>
+
+<p class="paratext">ethics ethic ethcieehthi thihectihetcih cet heithhitih cethice hiecthiechith chiecth  cteihhtc hith ethi c eitheh tihe cih ectihe cithie ihe ihihiehtciheithiehtci ehtic ehhh htihe citheicth iheih tiheitch iehtc iehtcieh eitchi ectiehtci ehtie hci ehtieh tc ieht
+</p>
+
+<p class="paratext">ethitch iehtc iehtcieh eitchi ectiehtci ehtie hci ehtieh tc ieht</p>
+
+<p class="paratext" style="opacity:0.8">▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯</p>
+
+<p class="paratext" style="opacity:0.7">▯▯▯▯▯▯ ▯▯ ▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯▯▯▯▯▯ ▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯ ▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯</p>
+
+<p class="paratext"  style="opacity:0.65">▯▯▯ ▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯</p>
+
+<p class="paratext" style="opacity:0.6;">▯▯▯▯▯▯ ▯▯▯▯▯ <span style="opacity: 0.6">▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯<span style="opacity: 0.6"> ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ <span style="opacity: 0.2"> ▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯</span> ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯▯▯▯▯▯▯ ▯▯▯▯▯ <span style="opacity: 0.2"> ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯</span> ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯<span style="opacity: 0.6"> ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯<span style="opacity: 0.5"> ▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯</span> ▯▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯<span style="opacity: 0.6"> ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯▯▯▯▯▯▯ ▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯ ▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯▯▯▯▯▯▯▯▯ ▯▯▯▯▯▯ ▯▯▯▯▯▯▯ ▯▯▯▯ ▯▯▯▯ ▯▯▯ ▯▯▯▯ ▯▯</span></span></span></span>
+</p>
+		
+	</div>
+			<div style="width:100%;
+				margin: 0 auto;
+				z-index:0;
+				opacity: 1;
+				position:relative;
+				height:10000px;
+				background-size: 100% 10000px;
+				align-items: flex-end;
+				display: inline-flex;
+				background-repeat: repeat-y;
+					background-position: center;
+				background-image:url('t99.gif');">
+				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Yy9iWbHd6s4?si=77eNK7NvJ2mERjWD" title="" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+	
+
+	
+  </div>
+	
+	</div>
+</div>
+
+</body>
+</html>
+

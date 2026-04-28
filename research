@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+	
+<title>Research // Thought Research Initiative</title>
+			<link href="/lookback.css" rel="stylesheet" type="text/css">
+			<link href="/redesign.css" rel="stylesheet" type="text/css">
+			<link href="/vfx.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.typekit.net/dhz4dvc.css">
+
+<style type="text/css"> 
+	
+	.gradientc { background-image: linear-gradient(
+                 300deg,
+                 hsl(1deg 90% 5%) 0%,
+                 hsl(6deg 10% 6%) 35%,
+		         hsl(6deg 10% 6%) 55%,
+                 hsl(6deg 0% 0%) 100%);
+		background-attachment: fixed;
+	}
+	
+	.tri-bgnd { 
+		background-image:url("../img/TRI-logo-bkgnd.png");
+		background-size:60%;
+		background-repeat: no-repeat;
+		background-position: -40px -100px;
+		
+		min-height:110vh;
+		/*background-attachment: fixed;*/
+	}
+		
+	
+	a:link, a:visited { text-decoration: none; color:orange;}
+
+	.paratext { font-family: 'helvetica neue', helvetica, sans-serif; 
+	font-weight: 300; letter-spacing:0.058em; line-height:1.8em;
+	
+	}
+	
+	.err {
+    display: inline-block;
+    position:relative;
+    background: url('img/errline.png') bottom repeat-x;
+    background-size:6px;
+	}
+		
+	.kallisto {font-weight: 400; letter-spacing: 0.04em; font-family: 'kallisto', Helvetica, 'sans-serif';}
+	
+	
+	
+</style>	
+	
+</head>
+
+<body style="background-color:black; margin:0px; padding:0px;">
+<div class="gradientc" >
+<div class="tri-bgnd" style="margin:0px; padding:0; width:100%; font-weight: 400; letter-spacing: 0.04em; font-family: 'kallisto', Helvetica, 'sans-serif';">
+	<div class="triheader" style="border-bottom: 5px solid black; position:fixed; top:0px; width:100vw; padding:30px 40px 15px 40px; z-index: 255; font-size: 0.9em; color: black; background-color: whitesmoke;">
+		<div style="float:left; display:inline-block; position:relative;"><a href="https://thtrsr.ch/"><img src="../img/tri_logo_wordmark_color.png" height="53"/></a></div>
+		<div style="float:right; display:block;  position: relative; top: 36px; font-weight: 400; letter-spacing: 0.07em; padding-bottom:53px; padding-right:80px;">
+			<a href="/products"><div class="" style="display:inline-flex; margin-right:30px; color:#C30000;">Products</div></a>
+			<a href="/research"><div class="" style="display:inline-flex;  margin-right:30px; color:#C30000;">Research</div></a>
+			<a href="/safety"><div class="" style="display:inline-flex; margin-right:30px; color:#C30000;">Ethics &amp; Safety</div></a>
+			<a href="/about"><div class="" style="display:inline-flex; color:#C30000;">About TRI</div></a>
+		</div>
+	</div>
+	<!-- content -->
+<div style="width:100%; position: relative; margin:50px 0px;"><div style="margin:0px auto; color:#ffffff; font-size:1.2em; width:60%; line-height: 1.5; ">
+	<div style="height:80px;"></div>
+	<p style="font-size:2.5em; line-height:1em; font-weight: 100; letter-spacing:0.2rem; text-align:left;"><span>Research</span></p>
+	<p class="paratext">To learn more about upcoming product announcements and exclusive vendor events, including the closed release of <span style="white-space: nowrap;">QI<img style="position:relative; vertical-align: text-top; top:0.12em;" src="../img/tri-bug_white.png" width="8"/> Flex Alpha</span>, <a href="mailto:contact@thtrsr.ch?subject=Client Information">contact our development team</a>.</p>
+	
+  </div>
+	</div>
+	</div>
+		<div class="trifooter kallisto" style="padding:30px 50px 50px 50px; color:#666666; background-color:whitesmoke; font-weight: 400;">
+			<div style="display: inline-block; float:left;"><img src="../img/tri-bug_color.png" height="30" alt="TRI bug"/></div><div style="display: inline-block; float:right;">&copy; 2026 thought research initiative</div>
+	</div>
+	</div>
+</body>
+</html>
+
